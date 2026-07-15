@@ -18,11 +18,13 @@ Python has an inbuilt library for making HTTP requests called urllib specificall
 For this project we will use the requests library instead. It is a third party Python library that's much easier to use than urllib. It allows us handle the responses without having to deal with low level complexities like socket or connection code.
 
 When you call requests.get(url), it sends an HTTP GET request to the server and returns a Response object. Here are the methods and features from requests library:
-- .status_code — Stores HTTP status code about connection
-- .headers — Stores response headers
-- .text — Stores response body decoded as a string data type
-- .content — Stores response body as raw bytes
-- .json() — Its a method that parses a JSON body into a Python data structure
+| Attribute / Method | Description | Feature data type/Method |
+| :--- | :--- | :--- |
+| `.status_code` | Stores HTTP status code about connection | Integer |
+| `.headers` | Stores response headers | Dictionary-like object |
+| `.text` | Stores response body decoded as a string data type | String |
+| `.content` | Stores response body as raw bytes | Bytes |
+| `.json()` | A method that parses a JSON body into a Python data structure | Method (convets to python appropriate data structure) |
 
 **Installation:**
 ```bash
