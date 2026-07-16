@@ -4,7 +4,7 @@
 
 **— Robert Heinlein**
 
-
+<br></br>
 
 ## **My Thoughts:**
 Imagine scraping websites, managing a database, or maintaining physical data storage. Couldn't be me. This repository is a testament to humanity's greatest strength: our boredom.
@@ -13,20 +13,20 @@ Unfortunately for us, anything and everything we can ever think of has already b
 
 Take a simple weather app, for example. Considered one of the most basic beginner projects, it's often built by amateurs. Yet, as a concept, isn't it literally divine knowledge to predict the weather of the entire world, let alone having most of those predictions be accurate the majority of the time?
 
-Experienced developers, or any programmers really, overlook these projects because, from a coding standpoint, we don't have to indulge in any complex calculations, ML predictions, or any difficult logic. It's already handled somewhere else, and we get to reap the benifits through a simple **API** call.
+Experienced developers, or any programmers really, overlook these projects because, from a coding standpoint, we don't have to indulge in any complex calculations, ML predictions, or any difficult logic. It's already handled somewhere else, and we get to reap the benefits through a simple **API** call.
 
 I am constantly fascinated by weather apps and similar projects because I believe these so called "simple projects" demonstrate the true power of **API**s. They allow you to freely use the collective knowledge of the entire human race. It's so powerful that it makes the god-gifted ability to accurately predict the weather seem mediocre at best.
 
 ---
-<br></br><br></br>
+<br></br>
 
 # **What is an API?**
 **API** stands for **Application Programming Interface**. It is a set of rules, tools and protocols that allows applications to communicate and exchange information with one other. It connects two different application systems by establishing a connection which lets them exchange data and information.
 
 #### **Sources:**
-* [geeksforgeeks](https://www.geeksforgeeks.org/software-testing/what-is-an-api/)
+* [**GeeksforGeeks**](https://www.geeksforgeeks.org/software-testing/what-is-an-api/)
 
-* [IBMthink](https://www.ibm.com/think/topics/api?mhsrc=ibmsearch_a&mhq=API)
+* [**IBMthink**](https://www.ibm.com/think/topics/api?mhsrc=ibmsearch_a&mhq=API)
 
 ## **Characteristics**
 
@@ -39,7 +39,7 @@ I am constantly fascinated by weather apps and similar projects because I believ
 ### **Don't Repeat Yourself [DRY]**
 **DRY** is a fundamental software development concept. It's core principle is to prevent developers from reinventing the wheel by writing redundant code that's already been written and burning time and resources. 
 
-**eg:** An example of this is developers using API of google maps while building an EV charging management systems. The developer don't have to waste resources or time building an entire map system and can instead rely on already existing proven google maps system.
+**eg:** An example of this is developers using API of google maps while building an EV charging management system. The developers don't have to waste resources or time building an entire map system, instead they can rely on already existing proven google maps.
 
 
 ## **Working of API** :
@@ -95,7 +95,7 @@ There are certain rules we have to follow while using APIs. These are called res
 ## **Free APIs / Public APIs**
 Free APIs cost you nothing and you can use them to learn how to implement APIs in your program. These are used for research, education or learning developmental skills.
 
-### ** Where to find Free APIs?**
+### **Where to find Free APIs?**
 The Open-Source community has compiled a massive repository full of free APIs which you can use to make your programs. Its called public-apis and you can find hundreds of free APIs here. The link for the repo is given as follows:
 
 [**public-apis on GitHub**](https://github.com/public-apis/public-apis)
@@ -122,5 +122,13 @@ Github facilitates securing your API keys using a feature called SECRETS which a
 ---
 For added security, locally you could create a environment file to store your keys and place your .env in .gitignore file to protect your keys. This will prevent it from ever getting pushed.
 
+---
+ 
+### Simple Projects that implement APIs
 
-
+| # | Project | Description | Link |
+| :--- | :--- | :--- | :--- |
+| 1 | **Random Cat Fact Generator** | Fetches a random cat fact from the Cat Facts API. | [View Project](./Projects/01_cat_fact_generator/README.md) |
+| 2 | **Random Anime Suggestor** | Suggests a random anime using the Kitsu API. | [View Project](./Projects/02_anime_recommendation_system/README.md) |
+| 3 | **Random Ghibli Movie Recommendor** | Recommends a random Studio Ghibli film using the Ghibli API. | [View Project](./Projects/03_ghibli_movie_recomendor/README.md) |
+| 4 | **Pokemon Guessing Name** | A guessing game where you're given a pokemon's type and hints, then have to guess the pokemon, using the PokeAPI. | [View Project](./Projects/04_guess_the_pokemon/READMEmd) |
