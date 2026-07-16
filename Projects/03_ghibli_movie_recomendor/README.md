@@ -48,6 +48,6 @@ Ghibli Movie Recommendation System: [ghibli_recommender.py](./ghibli_recommendor
 
 ---
 
-## **Next Project: [Guess the pokemon](../04_guess_the_pokemon/READMEmd)**
+## **Next Project: [Guess the pokemon](../04_guess_the_pokemon/README.md)**
 
 [**Back to top**](#random-ghibli-movie-recommendor)

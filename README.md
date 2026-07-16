@@ -131,4 +131,4 @@ For added security, locally you could create a environment file to store your ke
 | 1 | **Random Cat Fact Generator** | Fetches a random cat fact from the Cat Facts API. | [View Project](./Projects/01_cat_fact_generator/README.md) |
 | 2 | **Random Anime Suggestor** | Suggests a random anime using the Kitsu API. | [View Project](./Projects/02_anime_recommendation_system/README.md) |
 | 3 | **Random Ghibli Movie Recommendor** | Recommends a random Studio Ghibli film using the Ghibli API. | [View Project](./Projects/03_ghibli_movie_recomendor/README.md) |
-| 4 | **Pokemon Guessing Name** | A guessing game where you're given a pokemon's type and hints, then have to guess the pokemon, using the PokeAPI. | [View Project](./Projects/04_guess_the_pokemon/READMEmd) |
+| 4 | **Pokemon Guessing Name** | A guessing game where you're given a pokemon's type and hints, then have to guess the pokemon, using the PokeAPI. | [View Project](./Projects/04_guess_the_pokemon/README.md) |
